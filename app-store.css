@@ -1,0 +1,381 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+* {
+    font-family: "Poppins", sans-serif;
+}
+* a{
+    text-decoration: none;
+}
+.navbar {
+    padding-left: 8rem;
+    padding-right: 8rem;
+    background-color: rgba(250, 250, 252, 0.8);
+}
+.navbar1 {
+    display: flex;
+    font-size: small;
+    align-items: center;
+    justify-content: center;
+    gap: 1.75rem;
+    font-family: 'Poppins', 'Inter', 'Montserrat', sans-serif;
+    position: relative;
+}
+.navbar1 p {
+    display: inline;
+}
+.icon {
+    size: 1rem;
+    color: rgba(82 82 82);
+}
+.hero-section {
+    padding-left: 8rem;
+    font-size: 1.35rem;
+    position: sticky;
+    opacity: 0.5;
+}
+hr {
+    margin-right: 8rem;
+    margin-left: 8rem;
+    margin-top: 1rem;
+    margin-bottom: 1.5rem;
+}
+.hero-section p {
+    font-size: large;
+    margin-bottom: 0.15rem;
+}
+.banner {
+    
+    font-size: 0.75rem;
+    text-align: center;
+    margin: 9.5px auto 0;
+    padding-top: 0.25rem;
+    margin-left: 8rem;
+    margin-right: 8rem;
+    border-radius: 10px;
+    background-color: #f2f8fc;
+}
+
+.first-info {
+    display: flex;
+    padding-left: 8rem;
+    padding-top: 0.5rem;
+    gap: 1.75rem;
+}
+.first-pic img {
+    object-fit: cover;
+    border-radius: 3rem;
+    height: 250px;
+}
+.first-text {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+.first-text a {
+    color: #0070c9;
+    font-size: 0.85rem;
+    text-decoration: none;
+}
+.first-text i {
+    color: rgb(255, 217, 0);
+    font-size: x-small;
+}
+.first-text h1 {
+    font-size: 1.5rem;
+}
+.first-text p {
+    font-size: 0.75rem;
+}
+.second {
+    padding-left: 8rem;
+    padding-right: 8rem;
+}
+.second-text {
+    font-size: 1rem;
+}
+.screenshots {
+    display: flex;
+    object-fit: cover;
+    overflow-x: scroll;
+}
+.screenshots img {
+    height: 500px;
+    width: 400px;
+    padding-right: 1rem;
+    border-radius: 1rem;
+}
+
+.three-text {
+    padding-left: 8rem;
+    padding-right: 8rem;
+    text-align: center;
+    font-size: 0.75rem;
+    
+}
+.three-text p {
+    line-height: 1.25rem;
+}
+.three {
+    padding-bottom: 1rem;
+}
+.four {
+    padding-left: 8rem;
+    padding-right: 8rem;
+}
+.four-info {
+    display: flex;
+    justify-content: space-between;
+    font-size: medium;
+}
+.four-info1 {
+    display: flex;
+    flex-direction: column;
+    line-height: 1rem;
+}
+.four-info2 {
+    display: flex;
+    flex-direction: column;
+    line-height: 1rem;
+}
+.five {
+    padding-left: 8rem;
+    padding-right: 8rem;
+}
+.five-info2 {
+    display: flex;
+    align-items: last baseline;
+}
+.five-info-heading strong {
+    font-size: 4rem;
+}
+.five p {
+    font-size: 0.8rem;
+}
+.five-info-heading {
+    padding-right: 4.5rem;
+}
+.six {
+    padding-left: 8rem;
+    padding-right: 8rem;
+    padding-top: 1rem;
+    overflow-x: scroll;
+}
+.six-pic {
+    display: flex;
+    gap: 2rem;
+    padding-bottom: 1rem;
+}
+.six-pic img {
+    object-fit: cover;
+    width: 25vw;
+}
+.seven {
+    padding-left: 8rem;
+    padding-right: 8rem;
+}
+.seven-info1 {
+    display: flex;
+    justify-content: space-between;
+}
+.seven-info1 h1 {
+    font-size: 1.35rem;
+}
+.seven-info1 a {
+    font-size: 0.75rem;
+}
+.seven-info2 {
+    font-size: 0.85rem;
+}
+.seven-pic{
+    display: flex;
+    gap: 2rem;
+}
+.seven img {
+    width: 25vw;
+    object-fit: cover;
+}
+.seven-info3 {
+    font-size: 0.85rem;
+}
+.eight {
+    padding-left: 8rem;
+    padding-right: 8rem;
+}
+.eight-info1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: auto;
+    font-size: 0.75rem;
+}
+.eight-first {
+    display: flex;
+    flex-direction: column;
+}
+.eight-second {
+    display: flex;
+    max-width: 1200px;
+    margin: auto;
+    font-size: 0.85rem;
+    justify-content: space-between;
+}
+.eight-third {
+    display: flex;
+    flex-direction: column;
+}
+.eight-third1 {
+    display: flex;
+    flex-direction: column;
+}
+.eight-info3 {
+    display: flex;
+    max-width: 1200px;
+    margin: auto;
+    justify-content: space-between;
+    font-size: 0.85rem;
+}
+.eight-four {
+    padding-left: 10rem;
+    padding-right: 8rem;
+   
+    display: flex;
+    font-size: 0.85rem;
+    justify-content: space-between;
+}
+.eight-four1 {
+    display: flex;
+    flex-direction: column;
+}
+.eight-five {
+    display: flex;
+    font-size: 0.85rem;
+    justify-content: center;
+    padding-left: 8rem;
+    padding-right: 8rem;
+}
+.eight-five a {
+    padding-right: 2rem;
+}
+.section-nine {
+    display: flex;
+}
+.section-9 {
+    padding-left: 8rem;
+}
+.section-9 img {
+    width: 12vw;
+}
+.nine-text {
+    font-size: 0.85rem;
+    line-height: 1rem;
+}
+.ten {
+    padding-left: 8rem;
+    padding-right: 8rem;
+}
+.ten h1 {
+    font-size: 1.35rem;
+}
+.ten1 {
+    display: flex;
+    gap: 1rem;
+}
+.ten-info {
+    display: flex;
+    flex-direction: column;
+}
+.ten-info p {
+    font-size: 0.85rem;
+}
+.ten img {
+    width: 12vw;
+    object-fit: cover;
+}
+.ten-info {
+    padding-right: 1rem;
+}
+.eleven {
+    padding-left: 8rem;
+    padding-right: 8rem;
+    background-color: #f5f5f5;
+    display: flex;
+    font-size: 0.85rem;
+    gap: 4rem;
+}
+.eleven1 {
+    display: flex;
+    flex-direction: column;
+}
+.eleven2 {
+    display: flex;
+    flex-direction: column;
+    flex-wrap:wrap-reverse;
+    align-items: center;
+}
+.eleven a {
+    color: black;
+}
+.eleven1 p {
+    display: flex;
+    gap: 0.5rem;
+   
+}
+.eleven2 p {
+    display: flex;
+    gap: 1rem;
+   
+}
+.icon a {
+    color: rgba(82 82 82);
+}
+@media (max-width:982px){
+    .navbar1{
+        display: flex;
+        justify-content: space-between;
+    }
+    .navbar1 p{
+        display: none;
+    }
+    .navbar1 a{
+    
+        display: inline-block;
+    }
+    .six-pic{
+        overflow-x: scroll;
+    }
+    .seven-pic{
+        overflow-x: scroll;
+    }
+    .ten1{
+        overflow-x: scroll;
+    }
+    
+    .eleven2 p {
+        font-size: x-small;
+    }
+
+    
+}
+@media (max-width:900px){
+    
+    .first-pic img {
+        margin-top: 20px;
+        object-fit: cover;
+        border-radius: 2rem;
+        height: 150px;
+        align-items: center;
+    }
+    
+    
+}
+@media (max-width:795px){
+    .first-text h1 {
+        font-size: 1rem;
+    }
+}
+
+@media screen and (max-width: 715px) {
+    .eleven{
+        display: none;
+    }
+}
